@@ -6,6 +6,6 @@ class DB
 {
     public function get(): String
     {
-        return "DB";
+        return "DB 1.0.0";
     }
 }
