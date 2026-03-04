@@ -4,8 +4,8 @@ namespace Ddtix\Dbconn;
 
 class DB
 {
-    public function get(): String
+    public static function get(): string
     {
-        return "DB 1.0.0";
+        return getenv('DB_USERNAME');
     }
 }
